@@ -13,42 +13,42 @@ export default {
           city: 'Toronto',
           averagePrice: 120,
           propertyCount: 76,
-          imageUrl: '/img/tor.jpg',
+          imageUrl: './img/tor.jpg',
           imageAlt: 'Toronto skyline',
         },
         {
           city: 'Malibu',
           averagePrice: 215,
           propertyCount: 43,
-          imageUrl: '/img/mali.jpg',
+          imageUrl: './img/mali.jpg',
           imageAlt: 'Cliff in Malibu',
         },
         {
           city: 'Chicago',
           averagePrice: 130,
           propertyCount: 115,
-          imageUrl: '/img/chi.jpg',
+          imageUrl: './img/chi.jpg',
           imageAlt: 'Chicago skyline',
         },
         {
           city: 'Seattle',
           averagePrice: 135,
           propertyCount: 63,
-          imageUrl: '/img/seatt.jpg',
+          imageUrl: './img/seatt.jpg',
           imageAlt: 'Seattle skyline',
         },
         {
           city: 'Colorado',
           averagePrice: 85,
           propertyCount: 47,
-          imageUrl: '/img/col.jpg',
+          imageUrl: './img/col.jpg',
           imageAlt: 'Lake in Colorado',
         },
         {
           city: 'Miami',
           averagePrice: 115,
           propertyCount: 86,
-          imageUrl: '/img/miam.jpg',
+          imageUrl: './img/miam.jpg',
           imageAlt: 'Beach in Miami',
         },
       ],
@@ -70,9 +70,9 @@ export default {
       "
     >
       <div class="xl:max-w-lg xl:ml-auto">
-        <img src="/img/logo.svg" alt="Workcation Logo" class="h-10" />
+        <img src="./img/logo.svg" alt="Workcation Logo" class="h-10" />
         <img
-          src="/img/workcationing.jpg"
+          src="./img/workcationing.jpg"
           alt="Person relaxing at the beach"
           class="
             mt-6
@@ -118,7 +118,7 @@ export default {
     </div>
     <div class="hidden lg:block lg:w-1/2 lg:relative">
       <img
-        src="/img/workcationing.jpg"
+        src="./img/workcationing.jpg"
         alt="Person relaxing at the beach"
         class="absolute inset-0 h-full w-full object-cover object-center"
       />
