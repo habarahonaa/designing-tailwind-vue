@@ -11,9 +11,9 @@
       "
     >
       <div class="xl:max-w-lg xl:ml-auto">
-        <img src="/img/logo.svg" alt="Workcation Logo" class="h-10" />
+        <img src="./img/logo.svg" alt="Workcation Logo" class="h-10" />
         <img
-          src="/img/beach-work.jpeg"
+          src="./img/beach-work.jpeg"
           alt="Person relaxing at the beach"
           class="
             mt-6
