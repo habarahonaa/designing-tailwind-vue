@@ -10,6 +10,6 @@
     @apply bg-indigo-500 hover:bg-indigo-400 active:bg-indigo-600 focus:outline-none focus:outline-indigo-500/50 text-white;
   }
   .btn-gray {
-    @apply bg-gray-400 text-gray-800 active:bg-gray-500 hover:bg-gray-300;
+    @apply bg-gray-300 text-gray-700 active:bg-gray-500 hover:bg-gray-200;
   }
 }

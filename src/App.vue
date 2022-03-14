@@ -70,7 +70,7 @@ export default {
       "
     >
       <div class="xl:max-w-lg xl:ml-auto">
-        <img src="/logo.svg" alt="Workcation Logo" class="h-10" />
+        <img src="/logo-blue.svg" alt="Workcation Logo" class="h-10" />
         <img
           src="/beach-work.jpg"
           alt="Person relaxing at the beach"
@@ -78,7 +78,7 @@ export default {
             mt-6
             rounded-lg
             shadow-xl
-            sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center
+            sm:mt-8 sm:h-72 sm:w-full sm:object-cover sm:object-center
             lg:hidden
           "
         />
@@ -95,7 +95,7 @@ export default {
           "
         >
           You can work from anywhere.
-          <br class="hidden lg:inline" /><span class="text-indigo-500"
+          <br class="hidden lg:inline" /><span class="text-brand-blue-400"
             >Take advantage of it!</span
           >
         </h1>
@@ -106,7 +106,7 @@ export default {
         <div class="mt-4 sm:mt-6">
           <button
             href="#"
-            class="btn btn-indigo shadow-lg uppercase sm:text-base"
+            class="btn btn-indigo bg-brand-blue-400 hover:bg-brand-blue-400/75 focus:outline-brand-blue-400/50 active:bg-brand-blue-600 shadow-lg uppercase sm:text-base"
           >
             Book your escape!
           </button>
@@ -134,6 +134,7 @@ export default {
         <div
           class="mt-6 w-full px-4 lg:w-1/2 xl:w-1/3"
           v-for="destination in popularDestinations"
+          v-bind:key="destination.city"
         >
           <DestinationCard :destination="destination" />
         </div>
